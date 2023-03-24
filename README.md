@@ -21,6 +21,7 @@ delay between them. Each DNS server is given to its own thread.
 - Install requirements
 -- pip install scapy
 -- pip install wget
+-- pip install argparse
 ```
 
 
