@@ -29,4 +29,11 @@ delay between them. Each DNS server is given to its own thread.
 python dns-ddos.py host_url -p port_number -t max_threads
 ```
 
+## Admin
+```
+If you encounter errors you may need to run your console or command prompt as admin
+Windows - run as administrator (Piss easy)
+Linux - sudo -E python dns-ddos.py ....
+```
+
 ![image](https://user-images.githubusercontent.com/38970826/227402397-f8a52c4c-26dd-45ee-9b59-d26147910f05.png)
