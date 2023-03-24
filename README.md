@@ -3,19 +3,19 @@ which an attacker leverages the functionality of open DNS resolvers in order to 
 target server or network with an amplified amount of traffic, rendering the server and its 
 surrounding infrastructure inaccessible.
 
-##Basic Info
+## Basic Info
 ```
-###DNS Servers List
+### DNS Servers List
 You dont need your own list of spoofable DNS servers. This script will grab 
 all public DNS servers and checks each one if its spoofable or not
 
-###Multithreading
+### Multithreading
 This script is multithreaded for the attack. Each request is sent with a 500ms
 delay between them. Each DNS server is given to its own thread.
 ```
 
 
-##Installation
+## Installation
 ```
 - Download or Clone the repository
 - Install requirements
@@ -24,7 +24,7 @@ delay between them. Each DNS server is given to its own thread.
 ```
 
 
-##Usage
+## Usage
 ```
 python dns-ddos.py host_url -p port_number -t max_threads
 ```
