@@ -28,3 +28,5 @@ delay between them. Each DNS server is given to its own thread.
 ```
 python dns-ddos.py host_url -p port_number -t max_threads
 ```
+
+![image](https://user-images.githubusercontent.com/38970826/227402397-f8a52c4c-26dd-45ee-9b59-d26147910f05.png)
